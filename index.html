@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Handwriting Generator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script> <!-- Updated to a newer version -->
+</head>
+<body>
+    <div class="container">
+        <h1>Handwriting Generator</h1>
+        <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+        
+        <label for="font-selection">Choose Font:</label>
+        <select id="font-selection">
+            <option value="'Patrick Hand', cursive">Patrick Hand</option>
+            <option value="'Dancing Script', cursive">Dancing Script</option>
+            <!-- Add more fonts as needed -->
+        </select>
+
+        <label for="font-size">Font Size:</label>
+        <input type="number" id="font-size" value="16">
+
+        <label for="font-weight">Font Weight:</label>
+        <select id="font-weight">
+            <option value="normal">Normal</option>
+            <option value="bold">Bold</option>
+        </select>
+
+        <label for="letter-spacing">Letter Spacing:</label>
+        <input type="number" id="letter-spacing" value="0">
+
+        <label for="word-spacing">Word Spacing:</label>
+        <input type="number" id="word-spacing" value="0">
+
+        <label for="font-color">Font Color:</label>
+        <input type="color" id="font-color" value="#000000">
+
+        <label for="paper-color">Paper Color:</label>
+        <input type="color" id="paper-color" value="#ffffff">
+
+        <label for="line-height">Line Height:</label>
+        <input type="number" id="line-height" value="1.5" step="0.1">
+
+        <label for="page-margin">Page Margin:</label>
+        <input type="number" id="page-margin" value="20">
+
+        <label for="ruled-lines">Ruled Lines:</label>
+        <select id="ruled-lines">
+            <option value="with-lines">With Lines</option>
+            <option value="without-lines">Without Lines</option>
+        </select>
+
+        <label for="scanned-effect">Scanned Effect:</label>
+        <input type="checkbox" id="scanned-effect">
+
+        <label for="background-image">Background Image:</label>
+        <input type="file" id="background-image" accept="image/*">
+
+        <button id="generate-button">Generate</button>
+        <button id="save-button">Save as Images</button>
+
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
