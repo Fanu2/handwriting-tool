@@ -3,8 +3,8 @@
 ![Handwriting Generator](https://img.shields.io/badge/Handwriting-Generator-blue.svg) ![License](https://img.shields.io/github/license/yourusername/handwriting-generator.svg)
 
 Handwriting Generator is a web application that allows users to convert typed text into handwriting-style output across multiple pages. With options to customize fonts, spacing, colors, and page sizes, users can generate visually appealing handwritten text and save it as images.
+<img src="sample.png" alt="Handwriting Example" width="800" height="600">
 
-![Handwriting Example](sample.png) <!-- Screenshot added -->
 
 ---
 
