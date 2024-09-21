@@ -22,8 +22,7 @@ Handwriting Generator is a web application that allows users to convert typed te
 
 ## 🖥️ Demo
 
-[Live Demo](#) <!-- Provide a link to the demo if hosted -->
-
+[Live Demo](#) <https://fanu2.github.io/handwriting-tool/>
 ---
 
 ## 🛠️ Installation
