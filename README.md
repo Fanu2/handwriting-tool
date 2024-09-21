@@ -4,7 +4,7 @@
 
 Handwriting Generator is a web application that allows users to convert typed text into handwriting-style output across multiple pages. With options to customize fonts, spacing, colors, and page sizes, users can generate visually appealing handwritten text and save it as images.
 
-![Handwriting Example](https://via.placeholder.com/800x400) <!-- Add a real screenshot or demo image -->
+![Handwriting Example](sample.png/800x400) <!-- Add a real screenshot or demo image -->
 
 ---
 
